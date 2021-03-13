@@ -1,0 +1,24 @@
+.social-media {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.social-media:before,
+.social-media:after {
+  display: inline-block;
+  content: "";
+  border-top: 2px solid #e0bc8f;
+  width: 4rem;
+  margin: 0 1rem;
+  margin-top: 30px;
+  transform: translateY(-1rem);
+}
+
+social-media a {
+  margin: 0 8px;
+  color: hsla(0,0%,100%,.5);
+  font-size: 1.4rem;
+  transition: color .15s ease-in;
+}

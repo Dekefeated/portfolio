@@ -1,0 +1,31 @@
+.author-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border: 4px solid rgba(244, 188, 143, .3);
+}
+
+.author-image-frame:before {
+  content: "";
+  display: block;
+  top: -16px;
+  left: -16px;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  z-index: 0;
+  border: 4px solid #e0bc8f;
+}
+.author-image-frame:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -16px;
+  right: -16px;
+  width: 90%;
+  height: 90%;
+  z-index: 0;
+  border: 4px solid #e0bc8f;
+
+}
